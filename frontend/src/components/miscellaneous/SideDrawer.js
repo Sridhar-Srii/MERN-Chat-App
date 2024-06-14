@@ -147,7 +147,7 @@ const SideDrawer = () => {
             me="10px"
             alt='Chat App Logo'
           />
-          <Text fontSize={{ base: "2xl", md: "4xl" }} fontFamily="Times New Roman" fontWeight="bold">
+          <Text fontSize={{ base: "1xl", md: "4xl" }} fontFamily="Times New Roman" fontWeight="bold">
             Chat App
           </Text>
           <Image
@@ -196,7 +196,7 @@ const SideDrawer = () => {
               <Avatar size="sm" cursor="pointer" name={user.name} src={user.pic}></Avatar>
             </MenuButton>
 
-            <MenuList>
+            <MenuList> 
               
               <ProfileModel user={user}>
               <MenuItem>My Profile</MenuItem>
